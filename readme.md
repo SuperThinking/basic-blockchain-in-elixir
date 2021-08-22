@@ -1,9 +1,8 @@
-Following the tutorial [here](https://medium.com/coinmonks/building-a-blockchain-in-elixir-part-1-4d4ed889525b) to build a blockchain in elixir.
-
+⛓
 
 Each block has the following properties:
 
-- Index
+- Height
 - Timestamp
 - Previous Hash
 - Hash
@@ -41,3 +40,9 @@ Glossary (full list can be found [here](https://consensys.net/knowledge-base/a-b
 
 - Genesis Block - It's the first block in any blockchain.
 - Mining - The process by which blocks (or transactions) are verified and added to the blockchain.
+
+---
+
+Sources:
+
+- [How to build a blockchain in elixir](https://medium.com/coinmonks/building-a-blockchain-in-elixir-part-1-4d4ed889525b)

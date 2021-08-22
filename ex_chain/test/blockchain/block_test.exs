@@ -8,7 +8,8 @@ defmodule ExChain.Blockchain.BlockTest do
         data: "Genesis Block",
         hash: "FDE671660AD65606C79867F819BC0423C2D476B886FD1032BA2B656E24BB69A3",
         last_hash: nil,
-        timestamp: 1629490917054859
+        timestamp: 1629490917054859,
+        height: 0
       } == Block.genesis()
     end
 
